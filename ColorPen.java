@@ -29,7 +29,8 @@ public class ColorPen{
 		for(int i=0;i<this.len;i++){
 			str +="=";
 		}
-		str+= ">";
+		str += ">";
+		str +="("+this.color+")";
 		System.out.println(str);
 	}
 }
